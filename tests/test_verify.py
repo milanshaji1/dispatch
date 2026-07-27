@@ -42,7 +42,7 @@ class TestAgainstWarehouse:
         assert c.ok, c.error
 
     def test_seeded_wrong_number_is_blocked(self):
-        """The load-bearing test: a fabricated figure must fail verification."""
+        """The test this whole gate exists for: a fabricated figure must fail."""
         text = "There are {{99|SELECT count(DISTINCT region) FROM prices}} regions."
         (c,) = verify_citations(text)
         assert not c.ok

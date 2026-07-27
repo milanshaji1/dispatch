@@ -13,32 +13,32 @@ brief cost: reports/run_log.jsonl).
 
 - Trained a gradient-boosted **price-spike early-warning model** achieving
   **71% recall of $300+/MWh spike days at a 20% alert budget** in a 6-month
-  rolling-origin backtest — **+14 pp over a persistence baseline, with 2×
+  rolling-origin backtest: **+14 pp over a persistence baseline, with 2×
   the PR-AUC of climatology**.
 
 - Engineered an **LLM analyst agent** (Claude tool-use over SQL) that writes
   daily market briefings in which **every cited figure (26 per brief) is
   programmatically re-verified against the source database before
-  publication** — unverified briefs are blocked — at **~$0.07 and ~30 seconds
+  publication** (unverified briefs are blocked) at **~$0.07 and ~30 seconds
   per brief**, replacing hours of manual analysis.
 
 - Built an **LLM evaluation harness**: a 30-question golden set with
   ground-truth answers computed from the warehouse, scored deterministically
-  with per-question cost and latency — the agent scored **100% (30/30) at
+  with per-question cost and latency. The agent scored **100% (30/30) at
   $0.008 per question**, making model choice a measured accuracy/cost
   tradeoff.
 
 - Deployed as a **fully automated daily pipeline** (GitHub Actions cron:
   ingest → quality gates → forecast → brief → verify → publish) with a public
-  Streamlit dashboard — replacing a multi-hour manual analyst workflow.
+  Streamlit dashboard, replacing a multi-hour manual analyst workflow.
 
 ## The 30-second interview pitch
 
-> "I took a real analyst workflow — watching Australia's electricity spot
-> market and writing the morning brief — and automated it end to end. The ML
+> "I took a real analyst workflow, watching Australia's electricity spot
+> market and writing the morning brief, and automated it end to end. The ML
 > side is a spike early-warning model evaluated the honest way: rolling-origin
 > backtests against baselines, recall at a fixed alert budget. The GenAI side
-> is the part most people skip: every number the LLM writes is a citation
+> is the layer that usually gets skipped: every number the LLM writes is a citation
 > that gets re-executed against the database, and a brief with one unverified
 > figure doesn't publish. That verification-and-evals layer is what makes an
 > AI system something you can actually put in front of a client."
@@ -57,4 +57,4 @@ brief cost: reports/run_log.jsonl).
   Shows you validate assumptions instead of "fixing" data you don't understand.
 - **The outage story**: Open-Meteo went down mid-build; the pipeline was
   reworked to degrade gracefully (missing temps handled natively by the model)
-  instead of failing — that's what production-shaped means.
+  instead of failing.

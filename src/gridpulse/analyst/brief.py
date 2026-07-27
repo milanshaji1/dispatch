@@ -18,6 +18,22 @@ from gridpulse.config import NEM_TZ
 def nem_today() -> date:
     """Today in NEM time (AEST) - CI runners are on UTC, a day behind."""
     return datetime.now(ZoneInfo(NEM_TZ)).date()
+
+
+def strip_preamble(text: str) -> str:
+    """Drop any conversational lead-in before the brief's own heading.
+
+    The agent is told to emit only the brief, but it sometimes narrates first
+    ("Now I have everything needed for the brief.") or, after a repair round,
+    explains the correction before restating the brief. That chatter reads as
+    raw chatbot output in a published document, so cut everything above the
+    first markdown H1. Text with no H1 is returned unchanged - better to
+    publish an odd brief than to silently empty one.
+    """
+    for i, line in enumerate(text.splitlines(keepends=True)):
+        if line.startswith("# "):
+            return "".join(text.splitlines(keepends=True)[i:]).strip() + "\n"
+    return text
 from gridpulse.analyst.llm import UsageTracker, log_run
 from gridpulse.analyst.tools import TOOL_SCHEMAS, execute_tool
 from gridpulse.config import BRIEFS_DIR, REPORTS_DIR
@@ -110,6 +126,7 @@ def generate_brief(brief_date: date | None = None) -> tuple[str, dict]:
         f"to ground every figure, then output ONLY the final markdown brief.",
         tracker,
     )
+    draft = strip_preamble(draft)
 
     citations = verify.verify_citations(draft)
     failed = [c for c in citations if not c.ok]
@@ -121,10 +138,13 @@ def generate_brief(brief_date: date | None = None) -> tuple[str, dict]:
             "against the database:\n"
             f"{verify.failure_report(citations)}\n\n"
             "Re-check each failed figure with run_sql and output the corrected "
-            "full brief. Every figure must be a {{value|SQL}} citation.\n\n"
+            "full brief. Every figure must be a {{value|SQL}} citation.\n"
+            "Output ONLY the brief, starting at its '# NEM Daily Brief' "
+            "heading - no explanation of what you changed.\n\n"
             f"Original draft:\n{draft}",
             tracker,
         )
+        draft = strip_preamble(draft)
         citations = verify.verify_citations(draft)
         failed = [c for c in citations if not c.ok]
 
