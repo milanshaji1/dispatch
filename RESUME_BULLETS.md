@@ -9,7 +9,7 @@ brief cost: reports/run_log.jsonl).
 - Built **Dispatch**, an end-to-end AI market-analyst system for Australia's
   National Electricity Market: ingests **1M+ rows** of live 5-minute AEMO
   price and demand data across 5 regions into a DuckDB/Parquet pipeline with
-  automated data-quality gates (38 tests, CI-enforced).
+  automated quality gates (44 tests, CI-enforced).
 
 - Trained a gradient-boosted **price-spike early-warning model** achieving
   **71% recall of $300+/MWh spike days at a 20% alert budget** in a 6-month

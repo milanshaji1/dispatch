@@ -61,7 +61,8 @@ Streamlit dashboard ─► prices, spike-risk, latest brief, eval scores
 
 <!-- RESULTS:START — filled by measured runs -->
 **Data**: 1,054,080 five-minute price/demand observations (25 months × 5
-regions) + daily weather, all data-quality gates green (38 tests).
+regions) + daily weather, all data-quality gates green (44 tests: data
+quality, leakage and verification).
 
 **Spike model — rolling-origin backtest** (6 held-out months, Feb–Jul 2026,
 765 region-days, 59 spike days):
