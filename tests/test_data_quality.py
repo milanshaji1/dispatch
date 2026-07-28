@@ -8,7 +8,7 @@ from datetime import date, timedelta
 import duckdb
 import pytest
 
-from gridpulse.config import DB_PATH, REGIONS
+from dispatch.config import DB_PATH, REGIONS
 
 
 @pytest.fixture(scope="module")

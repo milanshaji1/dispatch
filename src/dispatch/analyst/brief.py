@@ -10,9 +10,9 @@ import sys
 from datetime import date, datetime
 from zoneinfo import ZoneInfo
 
-from gridpulse import db
-from gridpulse.analyst import verify
-from gridpulse.config import NEM_TZ
+from dispatch import db
+from dispatch.analyst import verify
+from dispatch.config import NEM_TZ
 
 
 def nem_today() -> date:
@@ -34,14 +34,14 @@ def strip_preamble(text: str) -> str:
         if line.startswith("# "):
             return "".join(text.splitlines(keepends=True)[i:]).strip() + "\n"
     return text
-from gridpulse.analyst.llm import UsageTracker, log_run
-from gridpulse.analyst.tools import TOOL_SCHEMAS, execute_tool
-from gridpulse.config import BRIEFS_DIR, REPORTS_DIR
+from dispatch.analyst.llm import UsageTracker, log_run
+from dispatch.analyst.tools import TOOL_SCHEMAS, execute_tool
+from dispatch.config import BRIEFS_DIR, REPORTS_DIR
 
 MAX_TOOL_TURNS = 25
 
 SYSTEM_PROMPT = """\
-You are GridPulse, a market analyst covering Australia's National Electricity
+You are Dispatch, a market analyst covering Australia's National Electricity
 Market (NEM). You write a daily morning brief for energy professionals
 (retailers, large energy users, battery operators).
 

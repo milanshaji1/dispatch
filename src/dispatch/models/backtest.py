@@ -20,8 +20,8 @@ import numpy as np
 import pandas as pd
 from sklearn.metrics import average_precision_score, brier_score_loss, roc_auc_score
 
-from gridpulse.config import PARQUET_DIR, REPORTS_DIR
-from gridpulse.models.features import build_features, feature_columns
+from dispatch.config import PARQUET_DIR, REPORTS_DIR
+from dispatch.models.features import build_features, feature_columns
 
 N_TEST_MONTHS = 6
 

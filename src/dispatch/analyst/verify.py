@@ -10,8 +10,8 @@ from __future__ import annotations
 import re
 from dataclasses import dataclass
 
-from gridpulse.analyst.tools import is_safe_sql
-from gridpulse import db
+from dispatch.analyst.tools import is_safe_sql
+from dispatch import db
 
 CITATION_RE = re.compile(r"\{\{\s*([^|{}]+?)\s*\|\s*([^{}]+?)\s*\}\}")
 

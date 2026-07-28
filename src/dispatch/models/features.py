@@ -14,8 +14,8 @@ from __future__ import annotations
 
 import pandas as pd
 
-from gridpulse import db
-from gridpulse.config import PARQUET_DIR, SPIKE_THRESHOLD
+from dispatch import db
+from dispatch.config import PARQUET_DIR, SPIKE_THRESHOLD
 
 LAGS = [1, 2, 3, 7]
 ROLLS = [7, 30]

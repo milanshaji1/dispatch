@@ -1,4 +1,4 @@
-"""GridPulse dashboard: live prices, spike risk, the daily brief, and eval scores."""
+"""Dispatch dashboard: live prices, spike risk, the daily brief, and eval scores."""
 import json
 import sys
 from pathlib import Path
@@ -11,10 +11,10 @@ import streamlit as st
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT / "src"))
 
-from gridpulse.config import BRIEFS_DIR, DB_PATH, EVALS_DIR, REPORTS_DIR  # noqa: E402
+from dispatch.config import BRIEFS_DIR, DB_PATH, EVALS_DIR, REPORTS_DIR  # noqa: E402
 
-st.set_page_config(page_title="GridPulse", page_icon="⚡", layout="wide")
-st.title("⚡ GridPulse — AI Market Analyst for Australia's Electricity Grid")
+st.set_page_config(page_title="Dispatch", page_icon="⚡", layout="wide")
+st.title("⚡ Dispatch — AI Market Analyst for Australia's Electricity Grid")
 
 
 @st.cache_data(ttl=600)

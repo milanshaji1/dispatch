@@ -1,11 +1,11 @@
-"""Central configuration for GridPulse."""
+"""Central configuration for Dispatch."""
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DATA_DIR = PROJECT_ROOT / "data"
 RAW_DIR = DATA_DIR / "raw"
 PARQUET_DIR = DATA_DIR / "parquet"
-DB_PATH = DATA_DIR / "gridpulse.duckdb"
+DB_PATH = DATA_DIR / "dispatch.duckdb"
 REPORTS_DIR = PROJECT_ROOT / "reports"
 BRIEFS_DIR = REPORTS_DIR / "briefs"
 MODELS_DIR = PROJECT_ROOT / "models_artifacts"

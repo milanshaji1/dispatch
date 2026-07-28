@@ -8,7 +8,7 @@ from datetime import date, timedelta
 import pandas as pd
 import requests
 
-from gridpulse.config import PARQUET_DIR, REGIONS
+from dispatch.config import PARQUET_DIR, REGIONS
 
 log = logging.getLogger(__name__)
 

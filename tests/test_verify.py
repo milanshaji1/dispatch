@@ -2,13 +2,13 @@
 the hallucination gate actually blocks."""
 import pytest
 
-from gridpulse.analyst.verify import (
+from dispatch.analyst.verify import (
     _values_match,
     extract_citations,
     render_brief,
     verify_citations,
 )
-from gridpulse.config import DB_PATH
+from dispatch.config import DB_PATH
 
 
 def test_extracts_value_and_sql():

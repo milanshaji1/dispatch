@@ -1,5 +1,5 @@
 [project]
-name = "gridpulse"
+name = "dispatch"
 version = "0.1.0"
 description = "AI market analyst for Australia's National Electricity Market: spike-risk forecasting + verified LLM daily briefings"
 requires-python = ">=3.11"

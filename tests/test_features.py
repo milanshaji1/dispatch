@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 import pytest
 
-from gridpulse.models.features import build_features, feature_columns
+from dispatch.models.features import build_features, feature_columns
 
 
 def synthetic_daily(days: int = 120, regions=("AAA1", "BBB1")) -> pd.DataFrame:

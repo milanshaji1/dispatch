@@ -1,4 +1,4 @@
-# Resume bullets for GridPulse
+# Resume bullets for Dispatch
 
 Use 2–4 of these under a "Projects" heading. All numbers are measured from
 real runs (backtest: reports/backtest_results.json; evals: evals/results.json;
@@ -6,7 +6,7 @@ brief cost: reports/run_log.jsonl).
 
 ## The bullets
 
-- Built **GridPulse**, an end-to-end AI market-analyst system for Australia's
+- Built **Dispatch**, an end-to-end AI market-analyst system for Australia's
   National Electricity Market: ingests **1M+ rows** of live 5-minute AEMO
   price and demand data across 5 regions into a DuckDB/Parquet pipeline with
   automated data-quality gates (38 tests, CI-enforced).

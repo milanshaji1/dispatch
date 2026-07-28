@@ -1,7 +1,7 @@
 """SQL guard tests: the LLM's only path to the warehouse must be read-only."""
 import pytest
 
-from gridpulse.analyst.tools import is_safe_sql
+from dispatch.analyst.tools import is_safe_sql
 
 
 @pytest.mark.parametrize(

@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import duckdb
 
-from gridpulse.config import DB_PATH, PARQUET_DIR
+from dispatch.config import DB_PATH, PARQUET_DIR
 
 
 def connect(read_only: bool = False) -> duckdb.DuckDBPyConnection:

@@ -4,7 +4,7 @@ Four early briefs shipped with the agent's narration still attached
 ("Now I have everything needed for the brief."), which reads as raw model
 output in a document meant for clients. strip_preamble is the gate.
 """
-from gridpulse.analyst.brief import strip_preamble
+from dispatch.analyst.brief import strip_preamble
 
 BRIEF = "# NEM Daily Brief - 2026-07-26\n\n## Yesterday at a glance\nJuly 25 was mild.\n"
 

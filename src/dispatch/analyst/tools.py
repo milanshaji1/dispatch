@@ -10,7 +10,7 @@ import re
 
 import duckdb
 
-from gridpulse import db
+from dispatch import db
 
 MAX_ROWS = 60
 

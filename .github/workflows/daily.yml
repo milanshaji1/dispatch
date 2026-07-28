@@ -28,22 +28,22 @@ jobs:
           .venv/bin/pip install -q -e ".[dev]"
 
       - name: Ingest latest market data
-        run: .venv/bin/python -m gridpulse.ingest.run --months 24
+        run: .venv/bin/python -m dispatch.ingest.run --months 24
 
       - name: Data-quality gates
         run: .venv/bin/python -m pytest tests/test_data_quality.py -q
 
       - name: Train + forecast tomorrow
-        run: .venv/bin/python -m gridpulse.models.train
+        run: .venv/bin/python -m dispatch.models.train
 
       - name: Generate and verify brief
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: .venv/bin/python -m gridpulse.analyst.brief
+        run: .venv/bin/python -m dispatch.analyst.brief
 
       - name: Commit brief
         run: |
-          git config user.name "gridpulse-bot"
+          git config user.name "dispatch-bot"
           git config user.email "actions@github.com"
           git add reports/briefs reports/run_log.jsonl
           git diff --cached --quiet || git commit -m "Daily brief $(date -u +%F)"

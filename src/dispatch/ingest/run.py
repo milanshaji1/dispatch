@@ -1,12 +1,12 @@
-"""Ingestion entrypoint: python -m gridpulse.ingest.run --months 24"""
+"""Ingestion entrypoint: python -m dispatch.ingest.run --months 24"""
 from __future__ import annotations
 
 import argparse
 import logging
 
-from gridpulse import db
-from gridpulse.ingest.aemo import ingest_prices
-from gridpulse.ingest.weather import ingest_weather
+from dispatch import db
+from dispatch.ingest.aemo import ingest_prices
+from dispatch.ingest.weather import ingest_weather
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
 
@@ -21,7 +21,7 @@ def main() -> None:
     db.rebuild()
     print(
         f"Ingest complete: {len(prices):,} price rows, "
-        f"{len(weather):,} weather rows -> data/gridpulse.duckdb"
+        f"{len(weather):,} weather rows -> data/dispatch.duckdb"
     )
 
 

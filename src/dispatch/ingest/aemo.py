@@ -12,7 +12,7 @@ from datetime import date
 import pandas as pd
 import requests
 
-from gridpulse.config import AEMO_PD_URL, PARQUET_DIR, RAW_DIR, REGIONS
+from dispatch.config import AEMO_PD_URL, PARQUET_DIR, RAW_DIR, REGIONS
 
 log = logging.getLogger(__name__)
 

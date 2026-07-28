@@ -11,11 +11,11 @@ from datetime import date, timedelta
 import lightgbm as lgb
 import pandas as pd
 
-from gridpulse import db
-from gridpulse.config import MODELS_DIR, REGIONS
-from gridpulse.ingest.weather import fetch_forecast
-from gridpulse.models.backtest import LGB_PARAMS
-from gridpulse.models.features import build_features, feature_columns, load_daily
+from dispatch import db
+from dispatch.config import MODELS_DIR, REGIONS
+from dispatch.ingest.weather import fetch_forecast
+from dispatch.models.backtest import LGB_PARAMS
+from dispatch.models.features import build_features, feature_columns, load_daily
 
 
 def train_full() -> tuple[lgb.LGBMClassifier, list[str]]:

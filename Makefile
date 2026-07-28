@@ -7,22 +7,22 @@ setup:
 	.venv/bin/pip install -q -e ".[dev]"
 
 ingest:
-	$(PY) -m gridpulse.ingest.run --months 24
+	$(PY) -m dispatch.ingest.run --months 24
 
 features:
-	$(PY) -m gridpulse.models.features
+	$(PY) -m dispatch.models.features
 
 train:
-	$(PY) -m gridpulse.models.train
+	$(PY) -m dispatch.models.train
 
 backtest:
-	$(PY) -m gridpulse.models.backtest
+	$(PY) -m dispatch.models.backtest
 
 brief:
-	$(PY) -m gridpulse.analyst.brief
+	$(PY) -m dispatch.analyst.brief
 
 evals:
-	$(PY) -m gridpulse.analyst.evals
+	$(PY) -m dispatch.analyst.evals
 
 test:
 	$(PY) -m pytest

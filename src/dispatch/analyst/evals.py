@@ -3,7 +3,7 @@
 30 questions with ground-truth answers computed directly from the warehouse.
 The agent answers each using its tools; answers are scored deterministically
 (numeric tolerance / exact string). Results include per-question cost and
-latency, so model swaps (GRIDPULSE_MODEL) are directly comparable.
+latency, so model swaps (DISPATCH_MODEL) are directly comparable.
 """
 from __future__ import annotations
 
@@ -11,11 +11,11 @@ import json
 from dataclasses import dataclass
 from datetime import date, timedelta
 
-from gridpulse import db
-from gridpulse.analyst.llm import UsageTracker
-from gridpulse.analyst.tools import TOOL_SCHEMAS, execute_tool
-from gridpulse.analyst.verify import _values_match
-from gridpulse.config import EVALS_DIR, REGIONS
+from dispatch import db
+from dispatch.analyst.llm import UsageTracker
+from dispatch.analyst.tools import TOOL_SCHEMAS, execute_tool
+from dispatch.analyst.verify import _values_match
+from dispatch.config import EVALS_DIR, REGIONS
 
 ANSWER_SYSTEM = """\
 You are a data analyst answering questions about Australia's National

@@ -1,8 +1,8 @@
-# GridPulse: AI market analyst for Australia's electricity grid
+# Dispatch — AI Market Analyst for Australia's Electricity Grid
 
-[![Daily brief](https://github.com/milanshaji1/gridpulse/actions/workflows/daily.yml/badge.svg)](https://github.com/milanshaji1/gridpulse/actions/workflows/daily.yml)
+[![Daily brief](https://github.com/milanshaji1/dispatch/actions/workflows/daily.yml/badge.svg)](https://github.com/milanshaji1/dispatch/actions/workflows/daily.yml)
 
-A production-shaped ML + LLM system on live market data. GridPulse ingests
+A production-shaped ML + LLM system on live market data. Dispatch ingests
 5-minute price and demand data from Australia's National Electricity Market
 (NEM), forecasts next-day **price-spike risk** per region with a backtested
 gradient-boosting model, and every morning an **LLM analyst agent writes a
@@ -12,7 +12,7 @@ against the source database before publication**.
 > Spot prices in the NEM swing from ~$50/MWh to the market cap (>$17,000/MWh)
 > within a single 5-minute interval. Retailers, large industrial users, and
 > battery operators pay analysts to watch this and write morning briefs.
-> GridPulse automates the watch *and* the brief, and adds the evaluation and
+> Dispatch automates the watch *and* the brief, and adds the evaluation and
 > verification layer that makes an LLM system trustworthy enough to put in
 > front of a client.
 
@@ -50,7 +50,7 @@ Streamlit dashboard ─► prices, spike-risk, latest brief, eval scores
 3. **An LLM eval harness.** A 30-question golden set with ground-truth
    answers computed directly from the warehouse, scored deterministically,
    with per-question cost and latency, so swapping models
-   (`GRIDPULSE_MODEL`) gives a directly comparable accuracy/cost tradeoff.
+   (`DISPATCH_MODEL`) gives a directly comparable accuracy/cost tradeoff.
 4. **Data-quality gates as tests.** Interval completeness, market price
    bounds, timezone sanity (the NEM runs on AEST with no DST), freshness:
    all pytest, all run in CI before anything downstream.
@@ -66,7 +66,7 @@ regions) + daily weather, all data-quality gates green (38 tests).
 **Spike model — rolling-origin backtest** (6 held-out months, Feb–Jul 2026,
 765 region-days, 59 spike days):
 
-| Metric | GridPulse (LightGBM) | Climatology | 7-day persistence |
+| Metric | Dispatch (LightGBM) | Climatology | 7-day persistence |
 |---|---|---|---|
 | Recall @ 20% alert budget | **71.2%** | 57.6% | 57.6% |
 | PR-AUC | **0.349** | 0.174 | 0.189 |
@@ -122,8 +122,8 @@ natively) rather than failing.
 
 ## Design decisions & limitations
 
-- **Day-ahead granularity, not dispatch-level.** The model predicts *which
-  days* carry spike risk rather than which 5-minute interval, which is the
+- **Day-ahead granularity, not 5-minute resolution.** The model predicts
+  *which days* carry spike risk rather than which interval, which is the
   decision a human analyst actually supports (hedge/alert today or not).
 - **Training uses day-of actual temperature as a stand-in for the day-ahead
   forecast** (standard practice; live serving feeds the real forecast). This
@@ -151,9 +151,9 @@ natively) rather than failing.
 ## Repo map
 
 ```
-src/gridpulse/ingest/    AEMO + weather downloaders (idempotent, retrying)
-src/gridpulse/models/    features (no-leakage), backtest harness, training
-src/gridpulse/analyst/   LLM agent, SQL tools (read-only guard), verifier, evals
+src/dispatch/ingest/    AEMO + weather downloaders (idempotent, retrying)
+src/dispatch/models/    features (no-leakage), backtest harness, training
+src/dispatch/analyst/   LLM agent, SQL tools (read-only guard), verifier, evals
 tests/                   data-quality gates, leakage tests, verifier tests
 dashboard/               Streamlit app
 .github/workflows/       daily cron: ingest → forecast → brief → verify → commit

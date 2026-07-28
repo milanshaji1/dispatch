@@ -1,7 +1,7 @@
 """Claude client wrapper with per-call cost and latency tracking.
 
 Model choice is configurable so the eval harness can compare models on
-accuracy vs cost - swap via GRIDPULSE_MODEL, re-run `make evals`, compare.
+accuracy vs cost - swap via DISPATCH_MODEL, re-run `make evals`, compare.
 """
 from __future__ import annotations
 
@@ -12,7 +12,7 @@ from dataclasses import dataclass, field
 
 import anthropic
 
-MODEL = os.environ.get("GRIDPULSE_MODEL", "claude-sonnet-5")
+MODEL = os.environ.get("DISPATCH_MODEL", "claude-sonnet-5")
 
 # USD per million tokens (input, output) - used for run-cost reporting.
 PRICING = {
