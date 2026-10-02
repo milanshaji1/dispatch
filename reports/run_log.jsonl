@@ -88,3 +88,4 @@
 {"model": "claude-sonnet-5", "n_calls": 7, "input_tokens": 23722, "output_tokens": 7130, "cost_usd": 0.17812, "latency_s": 72.55, "date": "2026-09-29", "n_citations": 25, "n_failed": 0, "verified": true}
 {"model": "claude-sonnet-5", "n_calls": 6, "input_tokens": 19112, "output_tokens": 4481, "cost_usd": 0.12455, "latency_s": 51.85, "date": "2026-09-30", "n_citations": 25, "n_failed": 0, "verified": true}
 {"model": "claude-sonnet-5", "n_calls": 6, "input_tokens": 18876, "output_tokens": 3864, "cost_usd": 0.11459, "latency_s": 38.72, "date": "2026-10-01", "n_citations": 24, "n_failed": 0, "verified": true}
+{"model": "claude-sonnet-5", "n_calls": 5, "input_tokens": 13968, "output_tokens": 5408, "cost_usd": 0.12302, "latency_s": 48.45, "date": "2026-10-02", "n_citations": 20, "n_failed": 0, "verified": true}
