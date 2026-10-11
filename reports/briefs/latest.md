@@ -1,17 +1,17 @@
-# NEM Daily Brief - 2026-10-10
+# NEM Daily Brief - 2026-10-11
 
 ## Yesterday at a glance
-Trading on 2026-10-09 was split sharply between the eastern mainland and the south. NSW1 was the most expensive region, averaging 160.41 $/MWh with a peak of 992.32 $/MWh, on demand averaging 6341.39 MW and peaking at 8264.22 MW. QLD1 also ran firm, averaging 123.77 $/MWh. By contrast, SA1, TAS1 and VIC1 were soft to negative on average, with VIC1 at -8.44 $/MWh and TAS1 at -5.67 $/MWh, consistent with mild temperatures (TAS1 tmax 22.2°C) and ample renewable output depressing the south.
+NSW1 was the most expensive and tightest region on 2026-10-10, averaging 202.68 $/MWh with demand peaking at 7906.23 MW, while QLD1 ran a calmer 94.08 $/MWh average. The three southern regions told a very different story: SA1, TAS1 and VIC1 averaged just 27.72, 1.52 and -3.22 $/MWh respectively, with VIC1's daily average actually negative. Demand was moderate everywhere - NSW1's average load of 6466.45 MW was the system's high point, well below extreme-heat territory, consistent with a mild 26.7°C top in Sydney.
 
 ## Notable events
-SA1 saw an extreme spike, with the daily maximum hitting 3210.98 $/MWh, alongside a very deep floor of -100 $/MWh — a classic high-volatility SA1 day with 159 negative-price intervals out of 288. QLD1 also printed a sharp spike to 860.05 $/MWh across 7 spike intervals, despite also recording 64 negative intervals — a wide intraday swing. NSW1 had 11 spike intervals and no negative pricing, pointing to a tight evening/peak period rather than oversupply. VIC1 and TAS1 saw no price spikes at all, but both had widespread negative pricing (197 and 166 intervals respectively), consistent with a low-demand, high-renewable day in the south.
+NSW1 had a single sharp price spike at 07:20, when the price hit 23200.0 $/MWh on demand of only 7024.75 MW - a brief morning-ramp dislocation rather than a heat-driven event, and it was the region's only interval above the $300 threshold (1 of 288 intervals). Elsewhere it was a negative-price day rather than a spike day: VIC1 printed negative prices in 191 of its 5-minute intervals (minimum -148.42 $/MWh), TAS1 had 166 negative intervals (minimum -157.83 $/MWh), and SA1 had 145 negative intervals - all typical of a low-demand day with plenty of wind/solar in the south.
 
 ## Today's spike outlook
-The model's latest day-ahead run (generated early 2026-10-10, targeting the 2026-10-11 trading day) shows spike risk concentrated in the warmer regions: QLD1 leads at 4.5% with a forecast top of 30.3°C, followed by TAS1 at 3.9% and SA1 at 3.8%. NSW1 and VIC1 are quiet, at 1.1% and 0.1% respectively, despite VIC1's forecast tmax of 23.7°C. No forecast row exists yet for 2026-10-10 itself in the warehouse, so this next-day view is the freshest guidance available.
+The model's latest run (generated 2026-10-11 00:12:51) is a two-day-ahead view pointing to 2026-10-12, since no fresh forecast has yet been posted for today (2026-10-11): NSW1 carries the highest spike risk at 0.131, followed by QLD1 at 0.086, SA1 at 0.058, TAS1 at 0.029 and VIC1 lowest at 0.008. That ranking lines up with the forecast weather: NSW1 is set to heat up to 33.2°C on the 12th, while the southern states cool off - SA1 to 15.9°C and VIC1 to 19.7°C - keeping demand and spike risk low there. For today itself, forecast conditions are mild across the NEM (NSW1 24.1°C, QLD1 30.4°C), so absent a fresh update, risk is likely similar to or lower than yesterday's quiet pattern.
 
 ## Bottom line
-NSW1 and QLD1 carried yesterday's price strength and remain the regions with the most spike risk ahead, while SA1's extreme volatility (a $3,211 peak against a -$100 floor) is a reminder that caution is still warranted there even on an otherwise low-probability day. VIC1 and TAS1 look calm on both counts.
+Yesterday was uneventful outside one brief NSW1 morning spike and routine negative pricing in the south; the next real spike risk the model flags is NSW1 on 2026-10-12 as heat builds there while southern regions stay cool and well-supplied.
 
 
 ---
-*24 figures verified against source data. Generated for $0.1498 in 55.42s.*
+*28 figures verified against source data. Generated for $0.2421 in 85.35s.*
