@@ -1,17 +1,17 @@
-# NEM Daily Brief - 2026-10-11
+# NEM Daily Brief - 2026-10-12
 
 ## Yesterday at a glance
-NSW1 was the most expensive and tightest region on 2026-10-10, averaging 202.68 $/MWh with demand peaking at 7906.23 MW, while QLD1 ran a calmer 94.08 $/MWh average. The three southern regions told a very different story: SA1, TAS1 and VIC1 averaged just 27.72, 1.52 and -3.22 $/MWh respectively, with VIC1's daily average actually negative. Demand was moderate everywhere - NSW1's average load of 6466.45 MW was the system's high point, well below extreme-heat territory, consistent with a mild 26.7°C top in Sydney.
+Wednesday 11 October was a soft demand, soft price day across the mainland. Average regional prices ranged from a negative -27.81 $/MWh in SA1 to 133.95 $/MWh in NSW1, with QLD1 close behind at 108.84 $/MWh. VIC1 and TAS1 both averaged near zero, at 3.81 $/MWh and 5.87 $/MWh respectively. Demand was unremarkable everywhere, with peak operational demand topping out at 8141.27 MW in NSW1, the highest of the five regions.
 
 ## Notable events
-NSW1 had a single sharp price spike at 07:20, when the price hit 23200.0 $/MWh on demand of only 7024.75 MW - a brief morning-ramp dislocation rather than a heat-driven event, and it was the region's only interval above the $300 threshold (1 of 288 intervals). Elsewhere it was a negative-price day rather than a spike day: VIC1 printed negative prices in 191 of its 5-minute intervals (minimum -148.42 $/MWh), TAS1 had 166 negative intervals (minimum -157.83 $/MWh), and SA1 had 145 negative intervals - all typical of a low-demand day with plenty of wind/solar in the south.
+No region recorded a genuine price spike (5-minute price >$300/MWh) on 11 October - all five regions logged 0 spike intervals - though NSW1 came close, peaking at 299.98 $/MWh. The bigger story was sustained negative pricing in the southern regions: SA1 traded negative in 164 of its 288 five-minute intervals, bottoming out at -414.98 $/MWh, while VIC1 and TAS1 were negative for 162 and 140 intervals respectively, with VIC1 touching -365.23 $/MWh. QLD1 also saw 96 negative intervals. Mild temperatures (tmax 27.2°C in SA1, 24.7°C in VIC1) kept demand low while rooftop and grid-scale solar output was evidently strong around midday, pushing prices into negative territory across the south.
 
 ## Today's spike outlook
-The model's latest run (generated 2026-10-11 00:12:51) is a two-day-ahead view pointing to 2026-10-12, since no fresh forecast has yet been posted for today (2026-10-11): NSW1 carries the highest spike risk at 0.131, followed by QLD1 at 0.086, SA1 at 0.058, TAS1 at 0.029 and VIC1 lowest at 0.008. That ranking lines up with the forecast weather: NSW1 is set to heat up to 33.2°C on the 12th, while the southern states cool off - SA1 to 15.9°C and VIC1 to 19.7°C - keeping demand and spike risk low there. For today itself, forecast conditions are mild across the NEM (NSW1 24.1°C, QLD1 30.4°C), so absent a fresh update, risk is likely similar to or lower than yesterday's quiet pattern.
+The model's latest day-ahead run (issued 2026-10-12 00:21:35, targeting 13 October) puts spike risk highest in NSW1 at 23.5%, followed by QLD1 at 16.6%. The southern regions are seen as low-risk: SA1 2.9%, TAS1 2.7%, and VIC1 just 0.3%. Forecast maximum temperatures for that day are mild in the south - 15.8°C in SA1 and 13.3°C in VIC1 - consistent with continued low demand and limited spike risk there, while the elevated NSW1/QLD1 risk is not weather-driven in this dataset and more likely reflects generation-availability or network factors.
 
 ## Bottom line
-Yesterday was uneventful outside one brief NSW1 morning spike and routine negative pricing in the south; the next real spike risk the model flags is NSW1 on 2026-10-12 as heat builds there while southern regions stay cool and well-supplied.
+Yesterday was a quiet, oversupplied day with no real spikes but widespread negative pricing in the south driven by mild weather and strong solar output; today's model flags NSW1 and QLD1 as the regions to watch for spike risk, while SA1, TAS1 and VIC1 should stay calm.
 
 
 ---
-*28 figures verified against source data. Generated for $0.2421 in 85.35s.*
+*24 figures verified against source data. Generated for $0.1530 in 58.22s.*
