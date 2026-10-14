@@ -1,17 +1,17 @@
-# NEM Daily Brief - 2026-10-13
+# NEM Daily Brief - 2026-10-14
 
 ## Yesterday at a glance
-On 2026-10-12, NSW1 was the standout region with an average price of 647.77 $/MWh, dragged up by a sharp afternoon spike, while the other four regions traded in calmer territory: QLD1 averaged 105.76 $/MWh, SA1 22.66 $/MWh, TAS1 22.99 $/MWh and VIC1 just 11.99 $/MWh. NSW1 demand averaged 7313.68 MW for the day but climbed to 8569.93 MW on average during the price-spike window, consistent with a hot day — NSW1 reached a top temperature of 32.8°C versus 24.1°C the day before. Southern regions (SA1, TAS1, VIC1) stayed mild and saw a lot of negative-price trade, typical of a low-demand, high-renewables day.
+Tuesday 13 October was a two-speed day. The mainland "spine" regions ran hot: NSW1 averaged 244.29 $/MWh and QLD1 216.75 $/MWh, with NSW demand peaking at 8695.3 MW. By contrast SA1, TAS1 and VIC1 were soft, averaging 35.08, 33.15 and 25.08 $/MWh respectively. Queensland's heat (30.7°C max) and a mild 20.7°C in NSW (20.7°C) underpinned firmer demand there, while the southern states stayed cool, limiting load.
 
 ## Notable events
-NSW1 experienced a genuine price event: 22 five-minute intervals cleared above $300/MWh, running from 14:10 to 16:50, with the peak hitting 23107.0 $/MWh — a classic hot-afternoon demand spike. No other region recorded a $300+ interval. On the opposite end, negative prices were widespread in the south: SA1 had 82 negative intervals, VIC1 91, TAS1 69 and even QLD1 recorded 23 — a sign of mild weather and ample wind/solar output pushing prices below zero for large parts of the day.
+NSW1 recorded 53 five-minute intervals above $300/MWh and QLD1 13, concentrated around the midday solar trough and the evening ramp. NSW1 hit a peak of 445.51 $/MWh at 17:40, with a second spike of 441.66 $/MWh at 12:50; QLD1 matched $410.00 at both 12:50 and 17:40. On the other side of the ledger, the south saw widespread negative pricing from midday solar oversupply: VIC1 troughed at -34.86 $/MWh with 108 negative intervals, SA1 fell to -20.76 $/MWh (108 intervals), and TAS1 to -15.01 $/MWh (101 intervals).
 
 ## Today's spike outlook
-The model's latest day-ahead forecast (generated this morning, targeting the 2026-10-14 trading day — no fresh run yet for 2026-10-13) puts spike risk highest in QLD1 at 0.124, followed by NSW1 at 0.08. SA1 and TAS1 sit much lower at 0.036 and 0.017 respectively, and VIC1 is negligible at 0.004. Forecast temperatures support this picture: SA1 is expected to reach only 17.2°C and VIC1 13.5°C — mild weather that keeps southern demand and spike risk low.
+The latest day-ahead model run (generated early this morning) targets the next trading day, 15 October, with the following spike probabilities: NSW1 0.249, QLD1 0.236, SA1 0.211, TAS1 0.148, and VIC1 0.065. NSW1 and QLD1 carry the highest risk, consistent with yesterday's pattern of solar-trough and evening-peak spikes repeating. Today itself (14 Oct) is milder than yesterday in the north - NSW1 16.3°C and QLD1 25.3°C - which should ease demand-driven pressure somewhat. Looking into the 15th, forecast tops of 17.0°C in SA1, 13.8°C in TAS1 and 18.3°C in VIC1 are unremarkable, in line with their low spike probabilities.
 
 ## Bottom line
-Yesterday's action was concentrated in NSW1, where a hot afternoon pushed prices briefly over $23,000/MWh; the south stayed soft, with plenty of negative-price intervals. The model's near-term outlook flags QLD1 as the region to watch for renewed spike risk, while southern states remain low-risk on mild forecast temperatures.
+Expect a calmer day in the north as temperatures ease, but NSW1 and QLD1 remain the regions to watch into the evening peak given elevated model risk; the south should stay benign, with any pricing weakness more likely to show up as midday negatives than spikes.
 
 
 ---
-*24 figures verified against source data. Generated for $0.1432 in 50.73s.*
+*28 figures verified against source data. Generated for $0.1868 in 71.98s.*
