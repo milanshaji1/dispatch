@@ -1,17 +1,17 @@
-# NEM Daily Brief - 2026-10-17
+# NEM Daily Brief - 2026-10-18
 
 ## Yesterday at a glance
-Tuesday 16 October was a mild, low-stress day across the NEM. Average prices ranged from 55.24 $/MWh in VIC1 up to 88.27 $/MWh in NSW1, with QLD1 close behind at 80.24 $/MWh. Demand was highest in the two mainland population centres, peaking at 8368.65 MW in NSW1 and 7223.23 MW in QLD1, while the smaller southern regions (SA1, TAS1, VIC1) saw comparatively subdued demand and much softer average prices. No region recorded a price spike above $300/MWh.
+Thursday 17 October was a split market: the mainland pair of NSW and QLD traded at normal, unremarkable levels, while SA, TAS and VIC spent large chunks of the day at negative prices. NSW1 averaged 66.31 $/MWh on demand of 6209 MW, and QLD1 averaged 58.8 $/MWh. By contrast SA1 averaged -11.0 $/MWh and VIC1 only 9.92 $/MWh, both dragged down by sustained periods of oversupply (likely strong wind/solar output against mild demand).
 
 ## Notable events
-The main feature of the day was a wave of negative prices across the southern regions, driven by midday solar oversupply rather than any stress event. SA1, TAS1 and VIC1 all logged 68, 64 and 68 five-minute negative-price intervals respectively, almost entirely clustered between 7am and 1pm — the classic spring solar "duck curve" pattern. SA1 saw the deepest trough at -10.81 $/MWh, with TAS1 slightly lower at -11.77 $/MWh. On the upside, SA1 also touched the day's highest single price at 152.01 $/MWh, but with zero spike intervals (0) this was a brief tightening, not a stress event. Overall, a quiet day with no spikes anywhere in the NEM.
+No region breached the $300/MWh spike threshold yesterday — spike_intervals were 0 across all five regions. The story instead was negative pricing in the south: SA1 printed negative prices for 10.6 hours, bottoming at -305.5 $/MWh; TAS1 was negative for 9.8 hours (low of -72.1 $/MWh); and VIC1 was negative for 10.0 hours (low of -68.41 $/MWh). Demand was unremarkable everywhere, with max demand topping out at 7836 MW in NSW1.
 
 ## Today's spike outlook
-The model sees low spike risk nationwide for 17 October. QLD1 carries the highest probability at 0.033 (forecast top of 22.2°C), followed by NSW1 at 0.029 (19.0°C forecast, actually a touch cooler than yesterday's 19.3°C max). TAS1 and SA1 sit near 0.016 and 0.015 respectively, with SA1's forecast top of 25.7°C the warmest in the NEM today but still well short of typical heat-driven spike territory. VIC1 is the calmest region, at just 0.003, with a mild 23.8°C forecast. None of these temperatures are extreme enough to suggest heat-driven demand stress.
+The model sees low spike risk nationwide for 18 October, with South Australia the standout. SA1's probability runs as high as 14.2%, well above the next-highest region, against a forecast top of 28.8°C — the warmest day among the five regions and a plausible driver of afternoon demand/price volatility after yesterday's oversupply. TAS1 sits next at 2.1% with a forecast top of 23.6°C. NSW1 (0.9%, top of 19.6°C), QLD1 (0.5%, top of 21.7°C) and VIC1 (0.3%, top of 24.9°C) are all low-risk.
 
 ## Bottom line
-Another low-risk day expected: mild temperatures and low spike probabilities everywhere, with QLD1 the only region worth a second glance. Expect the southern regions to again see midday negative pricing as spring solar output outpaces demand.
+Spike risk today is low across the board except for a modest SA1 watch-point; the bigger operational issue remains the opposite problem — extended negative pricing in SA, TAS and VIC that battery operators and flexible load should be positioned to capture again if mild, high-renewable conditions persist.
 
 
 ---
-*22 figures verified against source data. Generated for $0.0948 in 42.53s.*
+*23 figures verified against source data. Generated for $0.1155 in 34.7s.*
