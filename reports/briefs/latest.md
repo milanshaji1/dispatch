@@ -1,17 +1,17 @@
-# NEM Daily Brief - 2026-10-29
+# NEM Daily Brief - 2026-10-30
 
 ## Yesterday at a glance
-Thursday (2026-10-28) was a mild, unremarkable demand day across the NEM. Average prices ran highest in Queensland at 115.67 $/MWh and NSW at 100.17 $/MWh, while Victoria (88.8 $/MWh), Tasmania (84.26 $/MWh) and South Australia (72.35 $/MWh) were softer. Demand was unexceptional, averaging 6409.39 MW in NSW and 6507.41 MW in Queensland, with mild temperatures across the board (QLD tmax 28.4°C, SA tmax 17.5°C) keeping heat-driven demand out of the picture.
+On 29 October, NSW1 was the highest-priced region with an average of 92.44 $/MWh on demand averaging 6280 MW, followed closely by VIC1 at 90.49 $/MWh and TAS1 at 85.77 $/MWh. QLD1 and SA1 were softer, averaging 67.66 $/MWh and 50.56 $/MWh respectively, both dragged down by stretches of negative pricing. No region recorded a $300+ spike interval (0 spike intervals across NSW1, and likewise zero in the other four regions), making it a relatively calm day for extreme price risk. Temperatures were mild nationwide, with QLD1 the warmest at 26.3°C and VIC1/TAS1 the coolest around 18.2-19.0°C.
 
 ## Notable events
-South Australia was the region to watch. A brief early-morning price spike hit 348.97 $/MWh at 06:00, pushing SA1's max for the day above the $300 spike threshold (1 spike interval). The region then swung the other way: prices turned negative for 76 five-minute intervals between 10:25 and 16:50, bottoming out at -231.76 $/MWh — a classic midday low-demand, high-solar pattern given SA1's mild weather and modest average demand of 935.83 MW. Tasmania and Victoria each saw a handful of negative intervals (3 and 3 respectively) but nothing extreme. NSW and QLD were quiet, with zero spike or negative intervals recorded.
+Negative pricing was the main story. SA1 spent 123 of its 288 five-minute intervals in negative territory, bottoming out at -281.69 $/MWh at 15:45 - typical of a sunny, high-renewable midday in that region. QLD1 (61 negative intervals) and VIC1 (26) also saw meaningful negative-price windows, while TAS1 had a brief one at 23 intervals despite touching a daytime high of 214.65 $/MWh around 10:00, likely tied to a short ramp or interconnector constraint rather than sustained tightness. No region breached the $300/MWh spike threshold, so overall it was a quiet day for upside price risk.
 
 ## Today's spike outlook
-The latest model run (generated 2026-10-29) is a day-ahead forecast targeting 2026-10-30, the next date for which spike risk is available. It flags elevated risk in the two smaller, weather-exposed regions: Tasmania at 10.8% and South Australia at 10.6% — consistent with SA1's volatility just a day earlier. The mainland grid regions look calm by comparison: Victoria 2.9% (forecast tmax 24.9°C), NSW 1.5% (tmax 22.6°C) and Queensland 1.3% (tmax 24.3°C). No forecast temperatures are logged for SA1/TAS1, but neither is expecting notable heat, so the risk there looks tied more to renewable-driven volatility than demand.
+The model's latest run (generated just after midnight, covering the next trading day) puts spike risk highest in SA1 at 7.7%, consistent with the region's history of price swings from variable wind/solar output. NSW1 sits at 1.9%, TAS1 at 1.1%, QLD1 at 0.6%, and VIC1 lowest at 0.5%. Forecast maximum temperatures remain mild and unlikely to drive demand-side stress: QLD1 24.1°C, VIC1 22.2°C, TAS1 19.6°C. Today's own observed maximums are also moderate, with SA1 forecast to reach 26.4°C - warm enough to lift solar output further and reinforce the negative-price/volatility pattern there rather than pushing prices up.
 
 ## Bottom line
-Yesterday was broadly calm except for SA1's familiar solar-driven swing from a $349 morning spike to deeply negative midday prices; today's forecast keeps that pattern in focus with SA1 and TAS1 carrying roughly 10-11% spike risk while NSW, QLD and VIC remain low-risk.
+A quiet, low-stress day across the NEM yesterday with no spikes but notable negative pricing in SA1 and QLD1; today's outlook stays low-risk everywhere, though SA1 remains the one region worth watching for midday price swings.
 
 
 ---
-*25 figures verified against source data. Generated for $0.1232 in 50.5s.*
+*22 figures verified against source data. Generated for $0.1550 in 58.71s.*
