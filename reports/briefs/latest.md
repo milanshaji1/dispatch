@@ -1,17 +1,17 @@
-# NEM Daily Brief - 2026-10-30
+# NEM Daily Brief - 2026-10-31
 
 ## Yesterday at a glance
-On 29 October, NSW1 was the highest-priced region with an average of 92.44 $/MWh on demand averaging 6280 MW, followed closely by VIC1 at 90.49 $/MWh and TAS1 at 85.77 $/MWh. QLD1 and SA1 were softer, averaging 67.66 $/MWh and 50.56 $/MWh respectively, both dragged down by stretches of negative pricing. No region recorded a $300+ spike interval (0 spike intervals across NSW1, and likewise zero in the other four regions), making it a relatively calm day for extreme price risk. Temperatures were mild nationwide, with QLD1 the warmest at 26.3°C and VIC1/TAS1 the coolest around 18.2-19.0°C.
+On 30 October, the NEM traded in a fairly mild, well-supplied state. Mainland demand averaged around 3819 MW per region. NSW1 was the highest-priced region, averaging 81.34 $/MWh with demand peaking near 8236 MW, followed by QLD1 at 71.93 $/MWh. The southern regions were much cheaper: SA1 averaged just 31.07 $/MWh and VIC1 41.10 $/MWh, consistent with mild temperatures (SA1 tmax 26.4°C, VIC1 tmax 26.0°C) and strong renewable output.
 
 ## Notable events
-Negative pricing was the main story. SA1 spent 123 of its 288 five-minute intervals in negative territory, bottoming out at -281.69 $/MWh at 15:45 - typical of a sunny, high-renewable midday in that region. QLD1 (61 negative intervals) and VIC1 (26) also saw meaningful negative-price windows, while TAS1 had a brief one at 23 intervals despite touching a daytime high of 214.65 $/MWh around 10:00, likely tied to a short ramp or interconnector constraint rather than sustained tightness. No region breached the $300/MWh spike threshold, so overall it was a quiet day for upside price risk.
+No 5-minute interval anywhere in the NEM breached the $300/MWh spike threshold yesterday (0 spike intervals across all regions) - a quiet day for price risk. Negative prices, however, were widespread in the south: SA1 recorded 123 negative 5-minute intervals out of 288, with prices dropping as low as -119.0 $/MWh - a classic signature of high renewable generation outrunning demand. VIC1 (82 intervals, low of -44.35 $/MWh) and TAS1 (72 intervals, low of -45.8 $/MWh) saw similar, smaller-scale negative pricing. NSW1 and QLD1 each touched negative territory only briefly (1 interval each).
 
 ## Today's spike outlook
-The model's latest run (generated just after midnight, covering the next trading day) puts spike risk highest in SA1 at 7.7%, consistent with the region's history of price swings from variable wind/solar output. NSW1 sits at 1.9%, TAS1 at 1.1%, QLD1 at 0.6%, and VIC1 lowest at 0.5%. Forecast maximum temperatures remain mild and unlikely to drive demand-side stress: QLD1 24.1°C, VIC1 22.2°C, TAS1 19.6°C. Today's own observed maximums are also moderate, with SA1 forecast to reach 26.4°C - warm enough to lift solar output further and reinforce the negative-price/volatility pattern there rather than pushing prices up.
+The model's latest day-ahead run (issued early on 31 October, covering the 1 November trading day) puts spike risk highest in the south again: SA1 at 4.2% and TAS1 at 3.4% - both regions where tight, wind-dependent supply can flip quickly from oversupply (as seen yesterday) to scarcity pricing. The mainland east coast remains low-risk: QLD1 0.6%, NSW1 0.4%, and VIC1 0.2%, supported by forecast mild-to-warm but not extreme temperatures (QLD1 26.9°C, NSW1 22.6°C, VIC1 18.3°C).
 
 ## Bottom line
-A quiet, low-stress day across the NEM yesterday with no spikes but notable negative pricing in SA1 and QLD1; today's outlook stays low-risk everywhere, though SA1 remains the one region worth watching for midday price swings.
+Yesterday was benign for price risk but saw heavy negative pricing in SA1, TAS1 and VIC1 from surplus renewable supply; the model flags SA1 and TAS1 as the regions to watch for spike risk, while NSW1, QLD1 and VIC1 look settled for the day ahead.
 
 
 ---
-*22 figures verified against source data. Generated for $0.1550 in 58.71s.*
+*24 figures verified against source data. Generated for $0.1482 in 48.43s.*
