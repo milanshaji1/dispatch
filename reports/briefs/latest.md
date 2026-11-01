@@ -1,17 +1,17 @@
-# NEM Daily Brief - 2026-10-31
+# NEM Daily Brief - 2026-11-01
 
 ## Yesterday at a glance
-On 30 October, the NEM traded in a fairly mild, well-supplied state. Mainland demand averaged around 3819 MW per region. NSW1 was the highest-priced region, averaging 81.34 $/MWh with demand peaking near 8236 MW, followed by QLD1 at 71.93 $/MWh. The southern regions were much cheaper: SA1 averaged just 31.07 $/MWh and VIC1 41.10 $/MWh, consistent with mild temperatures (SA1 tmax 26.4°C, VIC1 tmax 26.0°C) and strong renewable output.
+Thursday 31 October was a mild, low-stress day in the mainland regions but an unusually cheap one in the south. NSW1 and QLD1 held firm around 83.86 and 79.09 $/MWh respectively, with demand peaking at 7976.2 MW in NSW1. SA1, VIC1 and TAS1 told a different story: average prices fell to -9.01, 22.13 and 26.41 $/MWh, dragged down by extended periods of negative pricing, likely reflecting strong renewable output against moderate demand.
 
 ## Notable events
-No 5-minute interval anywhere in the NEM breached the $300/MWh spike threshold yesterday (0 spike intervals across all regions) - a quiet day for price risk. Negative prices, however, were widespread in the south: SA1 recorded 123 negative 5-minute intervals out of 288, with prices dropping as low as -119.0 $/MWh - a classic signature of high renewable generation outrunning demand. VIC1 (82 intervals, low of -44.35 $/MWh) and TAS1 (72 intervals, low of -45.8 $/MWh) saw similar, smaller-scale negative pricing. NSW1 and QLD1 each touched negative territory only briefly (1 interval each).
+No price spikes above $300/MWh occurred anywhere in the NEM yesterday (0 spike intervals in every region) - a quiet day on the upside. The downside was far more active: SA1 spent 128 of its 288 five-minute intervals in negative pricing territory, bottoming out at -403.08 $/MWh. VIC1 (126 intervals, low of -30.29 $/MWh) and TAS1 (106 intervals, low of -17.77 $/MWh) saw similar patterns. NSW1 and QLD1 had no negative intervals at all, underlining the north-south split in market conditions.
 
 ## Today's spike outlook
-The model's latest day-ahead run (issued early on 31 October, covering the 1 November trading day) puts spike risk highest in the south again: SA1 at 4.2% and TAS1 at 3.4% - both regions where tight, wind-dependent supply can flip quickly from oversupply (as seen yesterday) to scarcity pricing. The mainland east coast remains low-risk: QLD1 0.6%, NSW1 0.4%, and VIC1 0.2%, supported by forecast mild-to-warm but not extreme temperatures (QLD1 26.9°C, NSW1 22.6°C, VIC1 18.3°C).
+The model's most recent run (targeting 2026-11-02, the latest forecast on file) puts spike risk highest in SA1 at 0.22, consistent with a forecast top of 21.7°C and the region's recent volatility. Other regions are forecast much lower: TAS1 0.04, VIC1 0.05, QLD1 0.03 and NSW1 0.02. For today (1 November) itself, forecast maximum temperatures are mild across the board - NSW1 23.0°C, QLD1 27.8°C, SA1 21.6°C, VIC1 18.8°C and TAS1 17.3°C - none of which point to heat-driven demand stress.
 
 ## Bottom line
-Yesterday was benign for price risk but saw heavy negative pricing in SA1, TAS1 and VIC1 from surplus renewable supply; the model flags SA1 and TAS1 as the regions to watch for spike risk, while NSW1, QLD1 and VIC1 look settled for the day ahead.
+No spike events yesterday and no strong heat signal today keep risk low in the eastern mainland; SA1 remains the one region to watch given its elevated model probability and history of price swings in both directions.
 
 
 ---
-*24 figures verified against source data. Generated for $0.1482 in 48.43s.*
+*24 figures verified against source data. Generated for $0.1014 in 39.75s.*
