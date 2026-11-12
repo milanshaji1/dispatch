@@ -77,14 +77,18 @@ quality, leakage and verification).
 Alerting on just 1 day in 5, the model catches 71% of real spike days:
 +13.6 pp over both baselines, with double their PR-AUC.
 
-**LLM analyst — measured on live runs** (claude-sonnet-5):
+**LLM analyst — measured on live runs** (claude-sonnet-5). Brief figures are
+medians over the 121 published briefs from 4 July to 1 November 2026, taken
+from `reports/run_log.jsonl`:
 
 | Metric | Result |
 |---|---|
 | Golden-set accuracy (30 questions, deterministic scoring) | **100% (30/30)** |
-| Cost per eval question / per daily brief | $0.008 / **$0.07** |
-| Citations per brief, all re-verified against the DB | 26 |
-| Brief generation latency | ~31s |
+| Cost per eval question | $0.008 |
+| Cost per daily brief | **$0.11** median ($0.05–$0.25) |
+| Citations per brief, all re-verified against the DB | 23 median (16–30) |
+| Failed citations across all 121 briefs | 0 |
+| Brief generation latency | 48s median |
 
 Tests prove the hallucination gate: a seeded fabricated figure is detected
 and blocks publication (`tests/test_verify.py`).
