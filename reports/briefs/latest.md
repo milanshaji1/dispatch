@@ -1,17 +1,17 @@
-# NEM Daily Brief - 2026-11-01
+# NEM Daily Brief - 2026-11-12
 
 ## Yesterday at a glance
-Thursday 31 October was a mild, low-stress day in the mainland regions but an unusually cheap one in the south. NSW1 and QLD1 held firm around 83.86 and 79.09 $/MWh respectively, with demand peaking at 7976.2 MW in NSW1. SA1, VIC1 and TAS1 told a different story: average prices fell to -9.01, 22.13 and 26.41 $/MWh, dragged down by extended periods of negative pricing, likely reflecting strong renewable output against moderate demand.
+Wednesday 11 November was a mild demand day across the mainland, with average prices ranging from 59.33 $/MWh in SA1 to 149.99 $/MWh in TAS1, the latter skewed hard by one extreme spike. NSW1 was the most expensive mainland region on average at 104.16 $/MWh, helped along by warm conditions (27.5°C max) and the day's highest demand peak of 8635.73 MW. QLD1 also ran warm (30.4°C) with average price of 89.45 $/MWh, while cooler southern regions (VIC1, SA1, TAS1, all with maxes between 18.2°C and 19.6°C) saw softer prices and plenty of negative pricing.
 
 ## Notable events
-No price spikes above $300/MWh occurred anywhere in the NEM yesterday (0 spike intervals in every region) - a quiet day on the upside. The downside was far more active: SA1 spent 128 of its 288 five-minute intervals in negative pricing territory, bottoming out at -403.08 $/MWh. VIC1 (126 intervals, low of -30.29 $/MWh) and TAS1 (106 intervals, low of -17.77 $/MWh) saw similar patterns. NSW1 and QLD1 had no negative intervals at all, underlining the north-south split in market conditions.
+TAS1 had a genuine price spike: at 13:35 the 5-minute price hit 23200.0 $/MWh (the regional cap), easing to 323.81 $/MWh five minutes later, with demand at the time of the cap event around 743.98 MW - consistent with a brief local supply/network constraint rather than a system-wide shortage. Negative prices were widespread in the south: SA1 printed below zero in 117 of its 288 five-minute intervals (around 40.6% of the day), bottoming out at -168.59 $/MWh - a classic midday rooftop/solar oversupply pattern. VIC1 (12 negative intervals, low of -44.35 $/MWh), TAS1 (12 intervals) and QLD1 (16 intervals, low of -5.0 $/MWh) also dipped below zero, but far less persistently. NSW1 was the only region with no negative pricing and no spikes.
 
 ## Today's spike outlook
-The model's most recent run (targeting 2026-11-02, the latest forecast on file) puts spike risk highest in SA1 at 0.22, consistent with a forecast top of 21.7°C and the region's recent volatility. Other regions are forecast much lower: TAS1 0.04, VIC1 0.05, QLD1 0.03 and NSW1 0.02. For today (1 November) itself, forecast maximum temperatures are mild across the board - NSW1 23.0°C, QLD1 27.8°C, SA1 21.6°C, VIC1 18.8°C and TAS1 17.3°C - none of which point to heat-driven demand stress.
+The model's latest run (generated 2026-11-12 10:11:12.632717) is day-ahead and currently targets 2026-11-13 rather than today, so treat it as a forward look: SA1 carries the highest risk at 6.4%, with a forecast top of 21.1°C - not extreme heat, so the risk likely reflects thin demand and renewables volatility rather than a heat-driven peak. TAS1 is next at 3.1%, a sensible follow-through after yesterday's cap event. QLD1 sits at 1.3% despite a warm 27.0°C forecast, while NSW1 (0.6%) and VIC1 (0.5%) are both low-risk. No forecast rows exist yet for today (2026-11-12) itself.
 
 ## Bottom line
-No spike events yesterday and no strong heat signal today keep risk low in the eastern mainland; SA1 remains the one region to watch given its elevated model probability and history of price swings in both directions.
+Yesterday was orderly on the mainland but Tasmania's momentary price-cap event and SA1's deep, prolonged negative pricing are worth flagging for risk desks; the model's forward view keeps SA1 as the one region to watch for spike risk into the next 24-48 hours, with no heat-driven stress currently signalled elsewhere.
 
 
 ---
-*24 figures verified against source data. Generated for $0.1014 in 39.75s.*
+*28 figures verified against source data. Generated for $0.0978 in 45.09s.*
