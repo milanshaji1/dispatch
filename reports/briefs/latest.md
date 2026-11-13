@@ -1,17 +1,17 @@
-# NEM Daily Brief - 2026-11-12
+# NEM Daily Brief - 2026-11-13
 
 ## Yesterday at a glance
-Wednesday 11 November was a mild demand day across the mainland, with average prices ranging from 59.33 $/MWh in SA1 to 149.99 $/MWh in TAS1, the latter skewed hard by one extreme spike. NSW1 was the most expensive mainland region on average at 104.16 $/MWh, helped along by warm conditions (27.5°C max) and the day's highest demand peak of 8635.73 MW. QLD1 also ran warm (30.4°C) with average price of 89.45 $/MWh, while cooler southern regions (VIC1, SA1, TAS1, all with maxes between 18.2°C and 19.6°C) saw softer prices and plenty of negative pricing.
+On 12 November, average prices across the five regions settled around 96.35 $/MWh, with demand averaging 3967.58 MW per region. SA1 was the standout, posting the highest average price at 125.56 $/MWh and a peak of 3119.88 $/MWh, against a mild top temperature of 23.8°C. NSW1 and QLD1 traded in a calmer band, averaging 102.41 and 99.97 $/MWh respectively, with no price spikes in either region. VIC1 and TAS1 were the softest markets, averaging 77.21 and 76.60 $/MWh.
 
 ## Notable events
-TAS1 had a genuine price spike: at 13:35 the 5-minute price hit 23200.0 $/MWh (the regional cap), easing to 323.81 $/MWh five minutes later, with demand at the time of the cap event around 743.98 MW - consistent with a brief local supply/network constraint rather than a system-wide shortage. Negative prices were widespread in the south: SA1 printed below zero in 117 of its 288 five-minute intervals (around 40.6% of the day), bottoming out at -168.59 $/MWh - a classic midday rooftop/solar oversupply pattern. VIC1 (12 negative intervals, low of -44.35 $/MWh), TAS1 (12 intervals) and QLD1 (16 intervals, low of -5.0 $/MWh) also dipped below zero, but far less persistently. NSW1 was the only region with no negative pricing and no spikes.
+SA1 recorded four 5-minute intervals above $300/MWh (about 20 minutes of spike exposure), including a sharp peak of 3119.88 $/MWh at 14:35 and an early-morning spike of 310.01 $/MWh at 06:30 - consistent with SA1's typical pattern of tight, wind-driven volatility rather than heat stress, given the mild 23.8°C top temperature. Negative pricing was more widespread: SA1 posted 52 negative intervals, VIC1 had 30, and TAS1 had 27 - a sign of strong renewable output pushing prices below zero at times, likely overnight or midday minimum-demand periods. NSW1 and QLD1 had a quiet day with zero spikes and zero negative intervals.
 
 ## Today's spike outlook
-The model's latest run (generated 2026-11-12 10:11:12.632717) is day-ahead and currently targets 2026-11-13 rather than today, so treat it as a forward look: SA1 carries the highest risk at 6.4%, with a forecast top of 21.1°C - not extreme heat, so the risk likely reflects thin demand and renewables volatility rather than a heat-driven peak. TAS1 is next at 3.1%, a sensible follow-through after yesterday's cap event. QLD1 sits at 1.3% despite a warm 27.0°C forecast, while NSW1 (0.6%) and VIC1 (0.5%) are both low-risk. No forecast rows exist yet for today (2026-11-12) itself.
+Note: the warehouse's latest ingested forecast run (generated 2026-11-13 01:49:08) targets 14 November rather than today; no forecast rows exist yet for 13 November, so this is the most current guidance available. The model flags SA1 as the clear outlier, with a spike probability of 0.434 against a forecast top of 18.0°C - again pointing to renewable/wind-driven volatility rather than heat demand. TAS1 and VIC1 sit much lower at 0.049 and 0.031 respectively, both under similarly mild forecast temperatures. NSW1 and QLD1 are negligible at 0.006 and 0.002, despite warmer forecast tops of 31.8°C and 27.1°C - demand there isn't yet translating into spike risk.
 
 ## Bottom line
-Yesterday was orderly on the mainland but Tasmania's momentary price-cap event and SA1's deep, prolonged negative pricing are worth flagging for risk desks; the model's forward view keeps SA1 as the one region to watch for spike risk into the next 24-48 hours, with no heat-driven stress currently signalled elsewhere.
+South Australia remains the market to watch: it already carried yesterday's only spikes and heaviest negative pricing, and the model keeps it the standout risk (43% spike probability) into the next session, while the eastern mainland stays comparatively calm.
 
 
 ---
-*28 figures verified against source data. Generated for $0.0978 in 45.09s.*
+*24 figures verified against source data. Generated for $0.2080 in 61.06s.*
