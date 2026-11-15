@@ -1,17 +1,17 @@
-# NEM Daily Brief - 2026-11-14
+# NEM Daily Brief - 2026-11-15
 
 ## Yesterday at a glance
-Thursday 13 November was a firm but not extreme pricing day across the NEM. South Australia was the standout, averaging 198.47 $/MWh, ahead of Victoria at 193.04 $/MWh, NSW at 181.29 $/MWh, Tasmania at 176.48 $/MWh and Queensland the cheapest at 134.38 $/MWh. Demand was unremarkable for mid‑November, with NSW peaking at 9286.43 MW and Queensland at 8597.93 MW, consistent with moderate temperatures (QLD1 reached 29.0°C, NSW1 25.1°C). South Australia's elevated average was driven by price volatility rather than heat — its own top temperature was a mild 19.7°C.
+Thursday (2026-11-14) was a moderate-demand day with no genuine price spikes anywhere in the NEM. Mainland demand was led by NSW1 at an average 7214.66 MW and QLD1 at 6466.17 MW, with prices to match: NSW1 averaged 137.73 $/MWh and QLD1 130.11 $/MWh. The smaller southern regions ran much cheaper on average - VIC1 94.95 $/MWh, TAS1 93.51 $/MWh and SA1 just 89.62 $/MWh - reflecting strong renewable supply rather than weak demand. VIC1 weather (the only region with current data) was mild, tmax 16.3°C / tmin 12.7°C, consistent with the subdued pricing.
 
 ## Notable events
-South Australia saw the day's sharpest action: 26 of its 288 five-minute intervals cleared above the $300 spike threshold, with prices touching 422.24 $/MWh. Notably these spikes clustered overnight between 00:00 and 02:15, and again mid-morning between 08:15 and 10:10 — not the classic afternoon heat-demand pattern, pointing to a supply-side squeeze (likely low wind output) rather than temperature. Victoria also recorded a handful of spikes (6 intervals, peak 305.67 $/MWh) in similar overnight/morning windows, while NSW came close but stayed just under the threshold (max 299.81 $/MWh). On the downside, South Australia also printed negative prices in 6 intervals, bottoming at -54.35 $/MWh, and Queensland had 6 negative intervals (low of -12.6 $/MWh) — a sign of periods of surplus renewable output. Tasmania was the quietest region, with no spikes and no negative prices.
+No region recorded a 5-minute price above the $300/MWh spike threshold yesterday - 0 spike intervals across all five regions. The story instead was negative pricing in the south: SA1 printed negative prices in 77 of its 288 five-minute intervals (about 26.7% of the day), bottoming out at -148.44 $/MWh - a classic signature of high wind/solar output outrunning local demand. VIC1 and TAS1 each saw 22 negative intervals (about 7.6% of the day), with troughs of -60.0 $/MWh and -46.47 $/MWh respectively. SA1 still touched a daily high of 217.61 $/MWh, underlining how volatile the region was intraday even without crossing the spike line.
 
 ## Today's spike outlook
-The model's latest run (generated 2026-11-14 01:22:08.333958) targets the next trading day, 2026-11-15. South Australia again carries the highest risk at 0.111 probability of a $300+ spike, against a forecast top of 17.0°C — mild weather, so the risk flag is about generation mix (wind-dependent tightness) rather than demand. Queensland is next at 0.038 with a warm 31.1°C forecast. Tasmania, NSW and Victoria are all low risk at 0.017, 0.01 and 0.008 respectively, with mild forecast temperatures across the southern states.
+The model's latest day-ahead run (generated 2026-11-15 00:59:57, targeting 2026-11-16) again flags SA1 as the main risk: spike probability 29.68%, with forecast tmax of 18.5°C - not a heat driver, but consistent with yesterday's pattern of a thin, renewables-heavy supply stack that swings between negative and high prices. Other regions are low risk: QLD1 8.10% (forecast tmax 29.8°C - warmest region but still low probability), TAS1 7.28%, VIC1 6.10% and NSW1 lowest at 4.41%.
 
 ## Bottom line
-South Australia remains the region to watch, with repeated overnight/morning spikes yesterday and the highest spike probability again flagged for the next trading day — likely a wind-driven tightness issue rather than heat. Elsewhere conditions are calm, with Tasmania, NSW and Victoria showing low spike risk and no major red flags.
+Yesterday was quiet on spikes but showed South Australia's recurring negative-to-volatile price swings; today's forecast reinforces SA1 as the only region with meaningful spike risk (~30%), while the rest of the NEM looks calm.
 
 
 ---
-*27 figures verified against source data. Generated for $0.1133 in 48.4s.*
+*27 figures verified against source data. Generated for $0.2334 in 83.76s.*
