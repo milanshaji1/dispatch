@@ -1,17 +1,17 @@
-# NEM Daily Brief - 2026-11-15
+# NEM Daily Brief - 2026-11-16
 
 ## Yesterday at a glance
-Thursday (2026-11-14) was a moderate-demand day with no genuine price spikes anywhere in the NEM. Mainland demand was led by NSW1 at an average 7214.66 MW and QLD1 at 6466.17 MW, with prices to match: NSW1 averaged 137.73 $/MWh and QLD1 130.11 $/MWh. The smaller southern regions ran much cheaper on average - VIC1 94.95 $/MWh, TAS1 93.51 $/MWh and SA1 just 89.62 $/MWh - reflecting strong renewable supply rather than weak demand. VIC1 weather (the only region with current data) was mild, tmax 16.3°C / tmin 12.7°C, consistent with the subdued pricing.
+On 2026-11-15, NSW1 and QLD1 carried the market with average prices of 146.21 $/MWh and 123.15 $/MWh respectively, consistent with solid demand of 6813.67 MW (NSW1) and 6294.72 MW (QLD1), with QLD1 reaching a hot 31.1°C maximum. The southern regions were far cheaper and more volatile: SA1 averaged just 42.09 $/MWh, while TAS1 and VIC1 sat around 60.51 and 60.42 $/MWh on mild weather (VIC1 tmax 17.0°C, TAS1 tmax 13.3°C). Demand in the south was modest, with SA1 averaging only 896.71 MW.
 
 ## Notable events
-No region recorded a 5-minute price above the $300/MWh spike threshold yesterday - 0 spike intervals across all five regions. The story instead was negative pricing in the south: SA1 printed negative prices in 77 of its 288 five-minute intervals (about 26.7% of the day), bottoming out at -148.44 $/MWh - a classic signature of high wind/solar output outrunning local demand. VIC1 and TAS1 each saw 22 negative intervals (about 7.6% of the day), with troughs of -60.0 $/MWh and -46.47 $/MWh respectively. SA1 still touched a daily high of 217.61 $/MWh, underlining how volatile the region was intraday even without crossing the spike line.
+No region recorded a price spike above $300/MWh (0 spike intervals in SA1, and the same across all other regions), even though SA1 touched a high of 262.19 $/MWh intraday. The real story was on the downside: SA1 plunged to -427.63 $/MWh and spent 135 of its 288 five-minute intervals in negative territory - typical of strong renewable output outpacing demand. VIC1 (85 negative intervals, low of -34.89 $/MWh) and TAS1 (79 negative intervals, low of -36.92 $/MWh) also saw sustained negative pricing. NSW1 and QLD1 stayed firmly positive all day, with no negative intervals recorded in either region.
 
 ## Today's spike outlook
-The model's latest day-ahead run (generated 2026-11-15 00:59:57, targeting 2026-11-16) again flags SA1 as the main risk: spike probability 29.68%, with forecast tmax of 18.5°C - not a heat driver, but consistent with yesterday's pattern of a thin, renewables-heavy supply stack that swings between negative and high prices. Other regions are low risk: QLD1 8.10% (forecast tmax 29.8°C - warmest region but still low probability), TAS1 7.28%, VIC1 6.10% and NSW1 lowest at 4.41%.
+The model's most recent run (generated 2026-11-16 00:52:02.429473) targets 2026-11-17 rather than today, and flags SA1 as the standout risk at a 26.7% spike probability, well above the other regions - NSW1 5.1%, QLD1 3.6%, TAS1 4.0%, and VIC1 just 1.7%. SA1's elevated risk lines up with a forecast top of 21.6°C, which can tighten local supply margins quickly if wind generation eases. QLD1's forecast 27.4°C maximum is the warmest of the regions but doesn't translate into elevated spike risk in this run. No forecast specific to today (2026-11-16) was available in the warehouse; this is the latest guidance on hand.
 
 ## Bottom line
-Yesterday was quiet on spikes but showed South Australia's recurring negative-to-volatile price swings; today's forecast reinforces SA1 as the only region with meaningful spike risk (~30%), while the rest of the NEM looks calm.
+Yesterday was calm on the price-spike front but showed the now-familiar split between the firmer, warmer north (NSW1/QLD1) and a renewables-driven, occasionally negative south (SA1/TAS1/VIC1). The model's latest signal points to SA1 as the one region to watch for spike risk into the following trading day.
 
 
 ---
-*27 figures verified against source data. Generated for $0.2334 in 83.76s.*
+*27 figures verified against source data. Generated for $0.0951 in 42.78s.*
