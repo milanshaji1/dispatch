@@ -1,17 +1,17 @@
-# NEM Daily Brief - 2026-11-16
+# NEM Daily Brief - 2026-11-17
 
 ## Yesterday at a glance
-On 2026-11-15, NSW1 and QLD1 carried the market with average prices of 146.21 $/MWh and 123.15 $/MWh respectively, consistent with solid demand of 6813.67 MW (NSW1) and 6294.72 MW (QLD1), with QLD1 reaching a hot 31.1°C maximum. The southern regions were far cheaper and more volatile: SA1 averaged just 42.09 $/MWh, while TAS1 and VIC1 sat around 60.51 and 60.42 $/MWh on mild weather (VIC1 tmax 17.0°C, TAS1 tmax 13.3°C). Demand in the south was modest, with SA1 averaging only 896.71 MW.
+Trading on 16 November was moderate in the mainland eastern states and volatile in South Australia. NSW1 averaged 135.05 $/MWh and QLD1 115.1 $/MWh, both with solid demand (NSW1 peak 8237.31 MW, QLD1 peak 8282.16 MW) but no price stress. VIC1 and TAS1 were calm, averaging 68.19 $/MWh and 70.11 $/MWh respectively. SA1 was the outlier: average price was a relatively muted 63.62 $/MWh, but that masked a sharp early-morning spike and heavy negative pricing through the rest of the day.
 
 ## Notable events
-No region recorded a price spike above $300/MWh (0 spike intervals in SA1, and the same across all other regions), even though SA1 touched a high of 262.19 $/MWh intraday. The real story was on the downside: SA1 plunged to -427.63 $/MWh and spent 135 of its 288 five-minute intervals in negative territory - typical of strong renewable output outpacing demand. VIC1 (85 negative intervals, low of -34.89 $/MWh) and TAS1 (79 negative intervals, low of -36.92 $/MWh) also saw sustained negative pricing. NSW1 and QLD1 stayed firmly positive all day, with no negative intervals recorded in either region.
+SA1 hit 1001.0 $/MWh at 06:40 (2 intervals over $300), consistent with a brief low-wind/morning-ramp squeeze. Prices then collapsed, with SA1 recording -188.6 $/MWh as low as 07:05, and negative prices in 116 of 288 intervals (about 40% of the day) — a classic signature of strong wind/solar output outrunning demand. VIC1 (36 negative intervals) and TAS1 (31 negative intervals) also saw scattered negative pricing, while NSW1 and QLD1 had no spikes and no negative intervals — a quiet day on the mainland demand side.
 
 ## Today's spike outlook
-The model's most recent run (generated 2026-11-16 00:52:02.429473) targets 2026-11-17 rather than today, and flags SA1 as the standout risk at a 26.7% spike probability, well above the other regions - NSW1 5.1%, QLD1 3.6%, TAS1 4.0%, and VIC1 just 1.7%. SA1's elevated risk lines up with a forecast top of 21.6°C, which can tighten local supply margins quickly if wind generation eases. QLD1's forecast 27.4°C maximum is the warmest of the regions but doesn't translate into elevated spike risk in this run. No forecast specific to today (2026-11-16) was available in the warehouse; this is the latest guidance on hand.
+No fresh day-ahead forecast is available yet for 2026-11-17 in the model feed. The latest run (generated 2026-11-17 03:30) targets 2026-11-18 and shows SA1 as the highest-risk region at 0.064 spike probability, against a forecast top temperature of 27.7°C — plausible given SA1's exposure to wind swings and its volatile pattern yesterday. TAS1 follows at 0.043, VIC1 at 0.023, NSW1 at 0.014, and QLD1 lowest at 0.007 despite the warmest forecast top of 24.9°C, suggesting ample generation headroom there. Treat these as indicative of the trend into the weekend rather than a confirmed read on today specifically.
 
 ## Bottom line
-Yesterday was calm on the price-spike front but showed the now-familiar split between the firmer, warmer north (NSW1/QLD1) and a renewables-driven, occasionally negative south (SA1/TAS1/VIC1). The model's latest signal points to SA1 as the one region to watch for spike risk into the following trading day.
+Mainland demand and prices were unremarkable yesterday, but SA1's swing from a $1,001/MWh spike to deeply negative prices within the same morning is a reminder of how quickly thin, renewable-heavy balancing can move; the model's next available outlook keeps SA1 as the region to watch heading into the weekend.
 
 
 ---
-*27 figures verified against source data. Generated for $0.0951 in 42.78s.*
+*21 figures verified against source data. Generated for $0.1096 in 42.86s.*
