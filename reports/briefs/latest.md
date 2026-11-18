@@ -1,17 +1,17 @@
-# NEM Daily Brief - 2026-11-17
+# NEM Daily Brief - 2026-11-18
 
 ## Yesterday at a glance
-Trading on 16 November was moderate in the mainland eastern states and volatile in South Australia. NSW1 averaged 135.05 $/MWh and QLD1 115.1 $/MWh, both with solid demand (NSW1 peak 8237.31 MW, QLD1 peak 8282.16 MW) but no price stress. VIC1 and TAS1 were calm, averaging 68.19 $/MWh and 70.11 $/MWh respectively. SA1 was the outlier: average price was a relatively muted 63.62 $/MWh, but that masked a sharp early-morning spike and heavy negative pricing through the rest of the day.
+On 2026-11-17, mainland prices were moderate: NSW1 averaged 103.96 $/MWh and VIC1 96.49 $/MWh, while QLD1 was cheaper at 78.22 $/MWh. Demand peaked at 8142.74 MW in NSW1 and 8257.08 MW in QLD1, consistent with mild-to-warm conditions (20.9°C and 26.7°C respectively). SA1 was the standout region, swinging between a trough of -179.84 $/MWh and a peak of 789.37 $/MWh, leaving its daily average (75.22 $/MWh) below its trailing-week average of 91.15 $/MWh.
 
 ## Notable events
-SA1 hit 1001.0 $/MWh at 06:40 (2 intervals over $300), consistent with a brief low-wind/morning-ramp squeeze. Prices then collapsed, with SA1 recording -188.6 $/MWh as low as 07:05, and negative prices in 116 of 288 intervals (about 40% of the day) — a classic signature of strong wind/solar output outrunning demand. VIC1 (36 negative intervals) and TAS1 (31 negative intervals) also saw scattered negative pricing, while NSW1 and QLD1 had no spikes and no negative intervals — a quiet day on the mainland demand side.
+SA1 recorded 3 price spikes above $300/MWh, all clustered in a 10-minute window around 789.37 $/MWh between 10:05 and 10:15, likely a brief supply/wind shortfall. It also saw an extended negative-price period - 91 intervals (roughly 07:20 to 17:15), reflecting strong midday solar output depressing prices for most of daylight hours. TAS1 had a single spike at 10:45 reaching 685.61 $/MWh alongside 5 negative intervals. VIC1 had no spikes but 5 negative-price intervals, touching -24.5 $/MWh. NSW1 and QLD1 were quiet, with no spikes and no negative pricing.
 
 ## Today's spike outlook
-No fresh day-ahead forecast is available yet for 2026-11-17 in the model feed. The latest run (generated 2026-11-17 03:30) targets 2026-11-18 and shows SA1 as the highest-risk region at 0.064 spike probability, against a forecast top temperature of 27.7°C — plausible given SA1's exposure to wind swings and its volatile pattern yesterday. TAS1 follows at 0.043, VIC1 at 0.023, NSW1 at 0.014, and QLD1 lowest at 0.007 despite the warmest forecast top of 24.9°C, suggesting ample generation headroom there. Treat these as indicative of the trend into the weekend rather than a confirmed read on today specifically.
+The model's latest run (generated this morning) targets **2026-11-19** as the next full trading day and flags SA1 as the clear risk region, with a spike probability of 0.38 against a forecast top of 29.2°C - hot, likely low-wind conditions that typically stress SA1's thin supply margin. Other regions are low-risk: QLD1 0.02, VIC1 0.02, TAS1 0.04, and NSW1 0.04. No forecast run is yet available specifically for today (2026-11-18); the above is the most current day-ahead view.
 
 ## Bottom line
-Mainland demand and prices were unremarkable yesterday, but SA1's swing from a $1,001/MWh spike to deeply negative prices within the same morning is a reminder of how quickly thin, renewable-heavy balancing can move; the model's next available outlook keeps SA1 as the region to watch heading into the weekend.
+Yesterday was broadly orderly on the mainland but volatile in SA1, which swung from deeply negative to near-$800 within the same session on strong solar and a brief midday shortfall. The model's newest outlook keeps SA1 as the one region to watch heading into the next hot, low-wind day, while NSW1, QLD1, VIC1 and TAS1 remain low risk.
 
 
 ---
-*21 figures verified against source data. Generated for $0.1096 in 42.86s.*
+*24 figures verified against source data. Generated for $0.0998 in 41.06s.*
