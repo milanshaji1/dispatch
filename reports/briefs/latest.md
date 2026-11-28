@@ -1,17 +1,29 @@
-# NEM Daily Brief - 2026-11-27
+# NEM Daily Brief - 2026-11-28
 
 ## Yesterday at a glance
-On 2026-11-26 the NEM-wide average price across the five regions was 110.52 $/MWh, with South Australia the most expensive region at an average of 126.12 $/MWh and Queensland the cheapest at 75.01 $/MWh. Demand was led by NSW, which peaked at 9002.81 MW, while SA's peak demand was a comparatively modest 1736.74 MW against its highest price of 194.79 $/MWh. Daytime temperatures were mild-to-warm, topping out at 30.0°C in SA and a cooler 20.8°C in Tasmania.
+Thursday 27 November was a moderate demand day across the NEM, with the average price across the five regions at 120.39 $/MWh and average demand of 4400.06 MW. NSW1 (104.06 $/MWh avg) and QLD1 (96.83 $/MWh avg) were calm, tracking mild weather (tmax 24.8°C and 26.9°C respectively). The volatility was concentrated in the southern states: VIC1 averaged 132.47 $/MWh, SA1 139.3 $/MWh and TAS1 129.3 $/MWh, each lifted by a short evening price spike rather than sustained high demand.
 
 ## Notable events
-It was a quiet day for price spikes - no region recorded any 5-minute interval above the $300/MWh spike threshold (0 spike intervals NEM-wide). Queensland saw brief negative pricing, with 4 intervals below zero, the lowest being -5.0 $/MWh around early afternoon (12:55-14:45), consistent with a midday oversupply of solar generation rather than any demand stress. No other region recorded negative prices.
+Three regions printed price spikes (>$300/MWh) during the evening peak, all clustered between 20:55 and 23:05 AEST - consistent with a tight ramp period rather than extreme heat:
+- **VIC1**: hit 850.09 $/MWh at 21:30, with two earlier intervals at 373.1 $/MWh (20:55 and 21:25) - 3 spike intervals in total.
+- **TAS1**: peaked at 450.06 $/MWh at 21:30, also with 3 spike intervals between 20:55-21:30.
+- **SA1**: two spikes late evening, peaking at 390.25 $/MWh at 22:10.
+
+No negative pricing was recorded anywhere (0 negative intervals NEM-wide), and NSW1/QLD1 had no spike intervals at all. Demand peaked modestly - VIC1's maximum was 6133.91 MW - so the spikes look more like a brief supply/interconnector squeeze across the Victoria-SA-Tasmania corridor than a demand-driven event.
 
 ## Today's spike outlook
-The model's latest run (generated 2026-11-27 03:36 AEST) targets tomorrow, 2026-11-28, and shows elevated spike risk in the southern regions: Tasmania at 17.1% and South Australia at 14.1%, both under forecast tmax of 19.9°C and 20.4°C respectively - mild weather, so risk here looks more wind/supply-driven than heat-driven. The mainland eastern states are benign: Victoria 1.8%, Queensland 0.3%, and NSW just 0.1%, despite warmer forecast tmax values of 27.5°C (QLD) and 27.3°C (NSW). No fresh model output is yet available specifically for today (2026-11-27); conditions described above apply to tomorrow's outlook.
+The model's latest run (generated 2026-11-28 03:13) is a day-ahead forecast for **2026-11-29** (no same-day figures for the 28th have landed in the warehouse yet). It again flags the southern states as the main risk:
+- **SA1**: 24.7% spike probability, forecast tmax 18.4°C
+- **TAS1**: 16.7%, tmax 19.2°C
+- **VIC1**: 1.9%, tmax 17.9°C
+- **QLD1**: 0.7%, tmax 27.5°C
+- **NSW1**: 0.3%, tmax 24.3°C
+
+Notably the elevated SA1/TAS1 risk isn't a heat story - forecast temperatures there are mild (high-teens), so the model is likely picking up on recurring evening-peak tightness similar to what we saw on the 27th rather than demand from heat.
 
 ## Bottom line
-Yesterday was uneventful - no spikes, only mild QLD solar-driven negative pricing, and moderate prices across the board. The model's latest forecast flags modest spike risk concentrated in SA and Tasmania for the next trading day, with the eastern mainland looking calm despite warmer weather.
+Yesterday was benign in NSW1/QLD1 but saw brief, sharp evening price spikes in VIC1, SA1 and TAS1 with no negative pricing anywhere; the model sees that same southern pattern persisting, with SA1 (~25%) and TAS1 (~17%) carrying the highest spike risk into the next trading day while the mainland north stays low-risk.
 
 
 ---
-*20 figures verified against source data. Generated for $0.1140 in 42.01s.*
+*28 figures verified against source data. Generated for $0.1081 in 43.02s.*
